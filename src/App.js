@@ -1,0 +1,19 @@
+
+import './App.css';
+import AddTodo from './Components/AddTodo/AddTodo';
+import TodoList from './Components/TodoList/TodoList';
+
+
+
+function App() {
+  return (
+    <div className="App">
+    <AddTodo/>
+    <TodoList/>
+    
+      
+    </div>
+  );
+}
+
+export default App;
